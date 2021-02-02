@@ -21,7 +21,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ee6050;
 }
 
 main {
@@ -121,6 +121,7 @@ p {
 img {
   display: block;
   margin: 0 auto;
+  align-content: right;
 }
 
 figcaption {
