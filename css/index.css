@@ -31,6 +31,7 @@ main {
   grid-gap:2rem;
   margin: 0 auto;
   margin-top: 3rem;
+  margin-right: 3rem;
 }
 
 .intro-block {
@@ -42,7 +43,15 @@ main {
 }
 
 .projects {
+  grid-column:2 / 2;
+  grid-row:1 / 2;
+  text-align: right;
+
+}
+
+.homeimg {
   grid-column:4 / 5;
+  grid-row:2 / 2;
 }
 
 .aboutme {
