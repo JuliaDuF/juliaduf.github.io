@@ -1,0 +1,170 @@
+html {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  background-color: #FFFFFF;
+}
+
+body {
+  padding:0rem;
+  color:#F9F8F6;
+  width: 100vw;
+  height: 57vw;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Sen', sans-serif;
+  font-weight:200;
+  line-height: 0.1rem;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+main {
+  display:grid;
+  grid-template-columns
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.intro-block {
+  grid-column:1 / 2;
+}
+
+.statement {
+  grid-column:1 / 1;
+}
+
+.projects {
+  grid-column:4 / 5;
+}
+
+.aboutme {
+  grid-column:4 / 5;
+}
+
+.item {
+  grid-column:1;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.definition {
+  grid-column:1;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Libre Calson Text', serif;
+  margin-bottom:0.5rem;
+}
+
+h1 {
+  font-size:2.75rem;
+  font-weight:800;
+  color: #F779AB;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:1.0rem;
+  font-weight:300;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 0.6rem;
+  font-family: 'Libre Calson Text', serif;
+  line-height: 0.5rem;
+  padding: .5rem 0;
+  display:grid;
+}
+
+p {
+  font-size: 0.6rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+  color: #FFFFFF;
+}
+
+.location {
+  font-size:0.6rem;
+  font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 0.6rem;
+  font-family: 'Helvetica', sans-serif;
+  padding-top: 1rem;
+}
+
+.sublink {
+  font-size:0.5rem;
+  font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase;
+}
+
+.bottomlink {
+  font-family: 'Work Sans', sans-serif;
+  font-weight:700;
+  line-height: 0.5rem;
+  color: #FFD0DC;
+}
+
+.title {
+  font-family: 'Forum', cursive;
+  font-weight:-200;
+  font-size: 3.5rem;
+  line-height: 0.8rem;
+  color: #242320;
+  margin-left: 5rem;
+}
+
+.titleitalic {
+  font-family: 'Libre Calson Text', serif;
+  font-weight:200;
+  font-size: 4rem;
+  line-height: 0.8rem;
+  color: #242320;
+  margin-left: 5rem;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background:url('../img/LUX3.jpg');
+  display: table;
+  top: 0;
+  background-size: 100%;
+}
+
+.subtitle {
+  font-family: 'Sen', sans-serif;
+  font-weight:-200;
+  font-size: 1rem;
+  line-height: 0.8rem;
+  color: #242320;
+  margin-left: 0.5rem;
+}
