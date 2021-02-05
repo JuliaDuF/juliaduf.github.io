@@ -8,7 +8,7 @@ body {
   padding:0rem;
   color:#F9F8F6;
   width: 100vw;
-  height: 57vw;
+  height: auto;
 }
 
 a {
@@ -30,7 +30,7 @@ main {
   grid-auto-rows:min-content;
   grid-gap:2rem;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   margin-right: 3rem;
 }
 
@@ -150,7 +150,7 @@ figcaption {
 .subtitle {
   font-family: 'Sen', sans-serif;
   font-weight:-200;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 0.8rem;
   color: #242320;
   margin-left: 0.5rem;
