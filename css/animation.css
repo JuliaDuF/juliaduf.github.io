@@ -1,0 +1,27 @@
+body {
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+
+#ColorwheelAnimation {
+	height: 900px;
+}
+
+@keyframes spinType {
+	0% {
+		transform: rotate(0turn);
+	}
+	100%{
+		transform: rotate(1turn);
+	}
+}
+
+div.container {
+	animation-duration: 2s;
+	animation-name: spinType;
+	animation-timing-function: ease-in-out;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+
+
+}
