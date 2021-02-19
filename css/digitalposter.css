@@ -1,5 +1,4 @@
 body {
-	margin-top: 3rem;
 	margin-bottom: 5rem;
   margin-left: 6rem;
   margin-right:6rem;
@@ -52,11 +51,13 @@ html {
 */
 
 .title0 {
-  font-size: 5rem;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 4rem;
   text-align: center;
 }
 
 .title {
+  font-family: 'Allerta Stencil', sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
@@ -68,7 +69,7 @@ html {
 }
 
 .small-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .row {
@@ -78,7 +79,7 @@ html {
 
 .row2 {
   display: flex;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .col {
@@ -210,6 +211,9 @@ h3 {
   }
   .title {
     font-size: 1.8rem;
+  }
+  .small-title {
+    font-size: 1.2rem;
   }
 }
 
