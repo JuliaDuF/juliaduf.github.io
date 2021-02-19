@@ -72,6 +72,25 @@ html {
   font-size: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+  font-family: 'Sen', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #82a8e9;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-content: right;
+}
+
 .row {
   display: flex;
   margin-top: 5rem;
