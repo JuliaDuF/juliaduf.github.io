@@ -1,53 +1,154 @@
+html {
+  font-family: 'Cormorant SC', serif;
+  width: auto;
+  height: auto;
+}
+
 body {
   background-color: black;
 }
 
-html {
-  font-family: ;
+/*CTTL=Centertotopleft, CTTR=Centertotopleft, CTBL=Centertobottomleft, CTBR=Centertobottomright*/
+
+/* down this part does not change*/
+
+div.floatingwords {
+  animation-duration: 6s;
+  animation-name: scaleopacity;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-@keyframes titlesize{
+@keyframes scaleopacity {
   0% {
-    transform: scale(1);
+    transform: scale(0.1); opacity: (0.2);
   }
   
-  50% {
-    transform: scale(1.2);
+  70% {
+    transform: scale(1.6); opacity: (1);
+  }
+
+  100% {
+    transform: scale(2.0); opacity: (0));
+  }
+}
+
+/* up this part does not change*/
+
+div.position1 {
+  animation-duration: 6s;
+  animation-name: positiona;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes positiona {
+  0% {
+    transform: translateX(0px) translateY(0px) translateZ(0px); 
   }
   
   100% {
-    transform: scale(1);
+    transform: translateX(1100px) translateY(900px) translateZ(0px);
   }
 }
+}
 
-div.containertitle {
-  animation-duration: 3s;
-  animation-name: titlesize;
+/* still working
+
+
+div.position2 {
+  animation-duration: 6s;
+  animation-name: positionb;
   animation-timing-function: ease-in-out;
-  animation-delay: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes positionb {
+  0% {
+    transform: translateX(0px) translateY(0px) translateZ(0px); 
+  }
+  
+  100% {
+    transform: translateX(-1100px) translateY(1500px) translateZ(0px);
+  }
+}
+}
+
+*/
+
+
+div.floatingwords2 {
+  animation-duration: ;
+  animation-name: name of keyframes two;
+  animation-timing-function: ease-in-out;
+  animation-delay: ;
   animation-iteration-count: infinite;
 }
 
-.title0 {
-  font-family: 'Allerta Stencil', sans-serif;
-  font-size: 4rem;
+div.floatingwords3 {
+  animation-duration: ;
+  animation-name: name of keyframes three;
+  animation-timing-function: ease-in-out;
+  animation-delay: ;
+  animation-iteration-count: ;
+}
+
+@keyframes name of keyframes {
+  0% {
+    transform: rotate(0turn);
+  }
+  50%{
+    transform: rotate(0.999turn);
+  }
+  100%{
+    transform: rotate(1turn);
+  }
+}
+
+.superword {
+  font-family:'Cormorant SC', serif;
+  font-size: 7rem;
+  font-weight: 700px;
   text-align: center;
+  color: white;
+  margin-top:20%;
+  margin-left: 20%;
 }
 
-.title {
-  font-family: 'Allerta Stencil', sans-serif;
-  font-size: 3rem;
+.largeword {
+  font-family:'Cormorant SC', serif;
+  font-size: ;
+  text-align: ;
+}
+
+.midword {
+  font-family: 'Cormorant SC', serif;
+  font-size: 5rem;
   text-align: center;
-  margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
+  margin-top:20%;
+  margin-left: 20%;
 }
 
-.title2 {
-  font-size: 3rem;
-  margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
+.smallword {
+  font-family: 'Cormorant SC', serif;
+  font-size: 0.5rem;
+  margin: auto;
 }
 
-.small-title {
-  font-size: 1.5rem;
+.tinyword {
+  font-family: 'Cormorant SC', serif;
+  font-size: ;
+}
+
+
+.colorwhite {
+  color:#FFFFFF;
 }
 
 a {
@@ -69,36 +170,8 @@ img {
   align-content: ;
 }
 
-@keyframes name of keyframes {
-	0% {
-		transform: rotate(0turn);
-	}
-  50%{
-    transform: rotate(0.999turn);
-  }
-	100%{
-		transform: rotate(1turn);
-	}
-}
-
-div.container1 {
-  animation-duration: ;
-  animation-name: name of keyframes;
-  animation-timing-function: ease-in-out;
-  animation-delay: ;
-  animation-iteration-count: infinite;
-}
-
-div.container2 {
-  animation-duration: ;
-  animation-name: name of keyframes;
-  animation-timing-function: ease-in-out;
-  animation-delay: ;
-  animation-iteration-count: ;
-}
-
 h1, h2, h3, h4, h5 {
-  font-family: ;
+  font-family: 'Cormorant SC', serif;
 }
 
 h1 {
@@ -119,4 +192,3 @@ h3 {
 @media (max-width:1000px) {
 
 }
-
