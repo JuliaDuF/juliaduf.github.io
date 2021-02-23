@@ -1,0 +1,271 @@
+body {
+	margin-bottom: 5rem;
+  margin-left: 6rem;
+  margin-right:6rem;
+  width: auto;
+  height: auto;
+}
+
+/*
+@keyframes titleSize {
+  0% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  
+  25% {
+    transform: rotate(0deg) scale(0.05);
+  }
+  
+  50% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  
+  75% {
+    transform: rotate(0deg) scale(0.05);
+  }
+  
+  100% {
+    transform: rotate(0deg) scale(1.2);
+  }
+}
+*/
+
+html {
+  font-family: sen, sans-serif;
+}
+
+/*
+@keyframes titleSize {
+  0% { transform: rotate(45deg) translate3d(-130%, 130%, -300px) scale(.5); }
+  100% { transform: rotate(45deg) translate3d(100%, -100%, 0) scale(1); }
+} */
+
+/* this is the original black box
+.container {
+  background-color: black;
+  color: white;
+  min-height: 50vh;
+  display: flex;
+  overflow: hidden;
+}
+*/
+
+
+@keyframes titlesize{
+  0% {
+    transform: scale(1);
+  }
+  
+  50% {
+    transform: scale(1.2);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+div.containertitle {
+  animation-duration: 3s;
+  animation-name: titlesize;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+.title0 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
+}
+
+.title2 {
+  font-size: 3rem;
+  margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
+}
+
+.small-title {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Sen', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #82a8e9;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-content: right;
+}
+
+.row {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.row2 {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.col {
+  flex: 1;
+  /*border: 1vw solid black;*/
+  padding: 20px;
+}
+
+.col-1 {
+  width: 33.3%;
+}
+
+.col-2 {
+  width: 33.3%;
+}
+
+.col-2 {
+  width: 33.3%;
+}
+
+/*
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem
+}*/
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.colorred {
+  color:#be252e;
+}
+
+.colorblue {
+  color:#82a8e9;
+}
+
+.coloryellow {
+  color:#ffce36;
+}
+
+.colorpurple {
+  color:#7c419d;
+}
+
+.colorlightgreen {
+  color:#cbd82e;
+}
+
+.colorpink {
+  color:#ff98a5;
+}
+
+.colordarkgreen {
+  color:#5d733d;
+}
+
+.colorbrown {
+  color:#432423;
+}
+
+.colororange {
+  color:#ff4e00;
+}
+
+.colorpink {
+  color:#ff98a5;
+}
+
+@keyframes spinType {
+	0% {
+		transform: rotate(0turn);
+	}
+  50%{
+    transform: rotate(0.999turn);
+  }
+	100%{
+		transform: rotate(1turn);
+	}
+}
+
+div.container1 {
+  animation-duration: 5s;
+  animation-name: spinType;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+div.container2 {
+  animation-duration: 4.5s;
+  animation-name: spinType;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Libre Calson Text', serif;
+  margin-bottom:0.5rem;
+}
+
+h1 {
+  font-size:2.75rem;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:1.0rem;
+  font-weight:300;
+
+}
+
+@media (max-width:700px) {
+  body {
+    font-size: 1.5rem;
+    font-color: white;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .small-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:1000px) {
+  body {
+    font-size: 2rem;
+    font-color: white;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
