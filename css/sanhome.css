@@ -57,7 +57,6 @@ div.position1 {
 }
 }
 
-/* still working
 
 
 div.position2 {
@@ -80,7 +79,6 @@ div.position2 {
 }
 }
 
-*/
 
 
 div.floatingwords2 {
@@ -131,8 +129,8 @@ div.floatingwords3 {
   font-family: 'Cormorant SC', serif;
   font-size: 5rem;
   text-align: center;
-  margin-top:20%;
-  margin-left: 20%;
+  margin-top:0%;
+  margin-left: 0%;
 }
 
 .smallword {
