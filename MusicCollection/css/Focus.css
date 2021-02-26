@@ -1,0 +1,220 @@
+body {
+	margin-bottom: 0.5rem;
+  margin-left: 6rem;
+  margin-right:6rem;
+  width: auto;
+  height: auto;
+  margin-top: 5rem;
+}
+
+
+main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #FFFFFF; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 8rem;
+  padding-left: 5rem;
+}
+
+div.containertitle0{
+  background-color: white;
+}  
+
+.title0 {
+  font-family: 'Poiret One', cursive;
+  font-size: 4rem;
+  text-align: center;
+  background-color: white;
+}
+
+.title1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: center;
+  background-color: white;
+}
+
+.songname {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  
+  }
+
+.title2 {
+  font-size: 1.5rem;
+  margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
+}
+
+.small-title {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 4rem;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: red;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-content: right;
+}
+
+iframe {
+  width: 240px;
+  height: 240px;
+}
+
+.row {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.row2 {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.col {
+  flex: 1;
+  /*border: 1vw solid black;*/
+  padding: 20px;
+}
+
+.col-1 {
+  width: 33.3%;
+}
+
+.col-2 {
+  width: 33.3%;
+}
+
+.col-2 {
+  width: 33.3%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom:0.5rem;
+}
+
+h1 {
+  font-size:2.75rem;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:1.0rem;
+  font-weight:300;
+
+}
+
+@media (max-width:900px) {
+  body {
+    font-color: white;
+    margin-left: 2rem;
+    margin-right:1rem;
+    margin-top: 15px;
+  }
+  .title0 {
+    font-size: 2.5rem;
+    text-align: right;
+  }
+  .sidenav {
+    padding-top: 40px;
+    width: 60px;
+    padding-left: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  .col-2 {
+    width: 100%;
+    position: block;
+  }
+  .songname {
+  font-size: 0.8rem;
+  text-align: center;
+  }
+  iframe {
+  width: 40px;
+  height: 200px;
+  }
+
+}
+/*
+
+@media (max-width:1000px) (min-width: 701) {
+  body {
+    font-color: white;
+    margin-left: 4rem;
+    margin-right:2.5rem;
+    margin-top: 15px;
+  }
+  .title0 {
+    font-size: 3rem;
+    text-align: right;
+  }
+  .sidenav {
+    padding-top: 80px;
+    width: 120px;
+    padding-left: 50px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  .col-2 {
+    width: 100%;
+    position: block;
+  }
+  .songname {
+  font-size: 0.8rem;
+  text-align: center;
+  }
+  iframe {
+  width: 120px;
+  height: 120px;
+}
+}
+*/
+
