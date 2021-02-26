@@ -2,6 +2,7 @@ html {
   font-family: 'Cormorant SC', serif;
   width: auto;
   height: auto;
+  overflow-x: hidden;
 }
 
 body {
@@ -10,33 +11,271 @@ body {
 
 /*CTTL=Centertotopleft, CTTR=Centertotopleft, CTBL=Centertobottomleft, CTBR=Centertobottomright*/
 
-/* down this part does not change*/
+/* this is a break between diff divs */
 
-div.floatingwords {
-  animation-duration: 6s;
-  animation-name: scaleopacity;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+/* this is a break between diff divs */
+
+div.mvx {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: mvx 6s ease-in 3s infinite forwards, fade 13s ease-in;
 }
 
-@keyframes scaleopacity {
+ 
+@keyframes mvx {
   0% {
-    transform: scale(0.1); opacity: (0.2);
-  }
-  
-  70% {
-    transform: scale(1.6); opacity: (1);
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
-    transform: scale(2.0); opacity: (0));
+    transform:  scale(1.0) translateX(500px) translateY(-600px) translateZ(0px) ; 
   }
 }
 
-/* up this part does not change*/
+@keyframes fade {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
 
+/* this is a break between diff divs */
+
+div.qwtklm {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: qwtklm 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes qwtklm {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(100px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.lsienib{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: lsienib 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes lsienib {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(600px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.aleunrib{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: aleunrib 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes aleunrib {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(300px) translateY(-400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.azsivn{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: azsivn 6s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes azsivn {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-700px) translateY(-400px) translateZ(0px) ; 
+  }
+}
+
+/* ykfre same position as azsivn */
+
+div.ykfre{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ykfre 6s ease-in 3s infinite forwards ;
+}
+
+
+@keyframes ykfre {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-700px) translateY(-400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.diw{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: diw 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes diw {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(200px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.qqocbdx{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: qqocbdx 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes qqocbdx {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.pekleubr{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: pekleubr 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes pekleubr {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.jbsehcse{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: jbsehcse 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes jbsehcse {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-800px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.szti{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: szti 6s ease-in 0s 1 forwards ;
+}
+
+
+@keyframes szti {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-400px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+
+
+
+
+/*
+transform: translateX(0px) translateY(0px) translateZ(0px)
+transform: translateX(300px) translateY(350px) translateZ(0px);
+
+visibility: visible
+visibility:hidden
+
+/*
 div.position1 {
   animation-duration: 6s;
   animation-name: positiona;
@@ -44,7 +283,10 @@ div.position1 {
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  align-self: center;
+  z-index: -1;
 }
+
 
 @keyframes positiona {
   0% {
@@ -52,7 +294,7 @@ div.position1 {
   }
   
   100% {
-    transform: translateX(1100px) translateY(900px) translateZ(0px);
+    transform: translateX(300px) translateY(350px) translateZ(0px);
   }
 }
 }
@@ -66,6 +308,7 @@ div.position2 {
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: -1;
 }
 
 @keyframes positionb {
@@ -74,28 +317,11 @@ div.position2 {
   }
   
   100% {
-    transform: translateX(-1100px) translateY(1500px) translateZ(0px);
+    transform: translateX(20px) translateY(500px) translateZ(0px);
   }
 }
 }
 
-
-
-div.floatingwords2 {
-  animation-duration: ;
-  animation-name: name of keyframes two;
-  animation-timing-function: ease-in-out;
-  animation-delay: ;
-  animation-iteration-count: infinite;
-}
-
-div.floatingwords3 {
-  animation-duration: ;
-  animation-name: name of keyframes three;
-  animation-timing-function: ease-in-out;
-  animation-delay: ;
-  animation-iteration-count: ;
-}
 
 @keyframes name of keyframes {
   0% {
@@ -108,6 +334,7 @@ div.floatingwords3 {
     transform: rotate(1turn);
   }
 }
+*/
 
 .superword {
   font-family:'Cormorant SC', serif;
@@ -115,33 +342,38 @@ div.floatingwords3 {
   font-weight: 700px;
   text-align: center;
   color: white;
-  margin-top:20%;
-  margin-left: 20%;
 }
 
 .largeword {
   font-family:'Cormorant SC', serif;
-  font-size: ;
-  text-align: ;
+  font-size: 5rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
 }
 
 .midword {
-  font-family: 'Cormorant SC', serif;
-  font-size: 5rem;
+  font-family:'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: 700px;
   text-align: center;
-  margin-top:0%;
-  margin-left: 0%;
+  color: white;
 }
 
 .smallword {
-  font-family: 'Cormorant SC', serif;
-  font-size: 0.5rem;
-  margin: auto;
+  font-family:'Cormorant SC', serif;
+  font-size: 0.8rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
 }
 
 .tinyword {
-  font-family: 'Cormorant SC', serif;
-  font-size: ;
+  font-family:'Cormorant SC', serif;
+  font-size: 0.3rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
 }
 
 
@@ -150,16 +382,16 @@ div.floatingwords3 {
 }
 
 a {
+  font-family: 'Cormorant SC', serif;
   text-decoration: none;
-  font-family: ;
   font-size: ;
   line-height: ;
   color: ;
 }
 
-a:hover {
+a:hover, h3:hover{
+  color: red;
   text-decoration: none;
-  color: ;
 }
 
 img {
