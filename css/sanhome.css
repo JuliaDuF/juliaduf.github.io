@@ -58,7 +58,7 @@ div.mvx {
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: mvx 6s ease-in 3s infinite forwards, fade 13s ease-in;
+  animation: mvx 6s ease-in 3s infinite forwards, fade 6s ease-in;
 }
 
  
@@ -508,11 +508,9 @@ h3 {
   transition: all 1.5s ease-in-out;
   transform-origin: 50% 50%;
 }
-  svg {
-  fill: rgb(0,0,0);
-  background-color: rgb(255,255,255);
-}
-}
+
+  .cls-1{fill:#FFFFFF;}
+  .cls-2{fill:#000000;}
 
 @media (max-width:1000px) {
 
