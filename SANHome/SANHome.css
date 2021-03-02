@@ -35,15 +35,15 @@ div.hexagon {
 
 @keyframes hexagon {
   0% {
-    transform:  scale(0.8) rotate(0deg) ; 
+    transform:  scale(1.2) rotate(0deg) ; 
   }
 
   50% {
-    transform:  scale(1.2) rotate(180deg) ; 
+    transform:  scale(0.8) rotate(180deg) ; 
   }
 
   100% {
-    transform:  scale(0.8) rotate(360deg) ; 
+    transform:  scale(1.2) rotate(360deg) ; 
   }
 
 }
@@ -1700,6 +1700,12 @@ h3 {
 
 }
 
+
+
+
+
+
+
 @media (max-width:700px) {
   body {
   background-color: white;
@@ -1766,5 +1772,75 @@ h3 {
 
   .cls-1{fill:#FFFFFF00;}
   .cls-2{fill:#000000;}
+
+  /* this is a break between diff divs */
+
+div.jrsc {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: jrsc 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes jrsc {
+  0% {
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.2) translateX(20px) translateY(500px) translateZ(0px) ; 
+  }
+}
+
+
+/* this is a break between diff divs */
+
+div.wuewrn{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: wuewrn 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
+}
+
+
+@keyframes wuewrn {
+  0% {
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.2) translateX(10px) translateY(650px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.zopr{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: zopr 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
+}
+
+
+@keyframes zopr {
+  0% {
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(2.0) translateX(230px) translateY(550px) translateZ(0px) ; 
+  }
+}
+
+
+}
 
 
