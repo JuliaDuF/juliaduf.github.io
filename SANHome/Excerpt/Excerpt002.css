@@ -1,0 +1,226 @@
+html {
+  font-family: 'Cormorant SC', serif;
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  background-color: white;
+}
+
+div.hexagon {
+  width: 30px;
+  height: 30px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 9%; /* Stay at the top */
+  left: 49%;
+  background-color: #00000000; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  animation: hexagon 5s ease-in-out infinite forwards;
+}
+
+  .cls-1{fill:#FFFFFF00;}
+  .cls-2{fill:#000000;}
+
+@keyframes hexagon {
+  0% {
+    transform:  scale(1.0) rotate(0deg) ; 
+  }
+
+  50% {
+    transform:  scale(0.7) rotate(180deg) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) rotate(360deg) ; 
+  }
+
+}
+
+.header {
+  height: 90px; /* Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 1.7rem;
+}
+
+
+.footer {
+  height: 30px; /* Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-bottom: 1.7rem;
+}
+
+.hexagonfooter {
+  height: 90px; /* Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-bottom: 1.7rem;
+}
+
+.excerpt {
+  height: 50%; /* Full-height: remove this if you want "auto" height */
+  width: 58%; /* Set the width of the sidebar */
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  background-color: white; 
+  margin-top: 11%;
+  margin-left: 22.5%;
+}
+
+.title {
+  font-family:'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: 700; /*记得改weight*/
+  text-align: center;
+  color: #000;
+}
+
+.back {
+  font-family:'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: 700; /*记得改weight*/
+  text-align: center;
+  color: #000;
+}
+
+.exp {
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-size: 1.0rem;
+  line-height: 1.4rem;
+}
+
+.highlight {
+  color:black;
+}
+
+a {
+  font-family: 'Cormorant SC', serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700px; /*记得改weight*/
+  text-align: center;
+  color: #000;
+
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-content: ;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cormorant SC', serif;
+}
+
+h1 {
+  font-size:2.75rem;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:1.0rem;
+
+}
+
+@media (max-width:700px) {
+  body {
+}
+  div.hexagon {
+  width: 28px;
+  height: 28px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 9%; /* Stay at the top */
+  left: 47%;
+  background-color: #ffffff00; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  animation: hexagon 3s ease-in-out infinite forwards;
+  transition: all 1.5s ease-in-out;
+  transform-origin: 50% 50%;
+}
+
+  .cls-1{fill:#FFFFFF00;}
+  .cls-2{fill:#000000;}
+
+.header {
+  height: 19%; /* Full-height: remove this if you want "auto" height */
+  width: 55%; /* Set the width of the sidebar */
+  background-color: white; 
+  padding-top: 1.9rem;
+  margin-left: 10%;
+  margin-top: 8%;
+  position: absolute;
+}
+
+.excerpt {
+  height: 50%; /* Full-height: remove this if you want "auto" height */
+  width: 65%; /* Set the width of the sidebar */
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  background-color: white; 
+  margin-top: 40%;
+  margin-left: 9%;
+}
+
+.footer {
+  height: 30px; /* Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-bottom: 1.7rem;
+}
+
+.title {
+  font-family:'Cormorant SC', serif;
+  font-size: 1.7rem;
+  font-weight: 700; /*记得改weight*/
+  text-align: left;
+  color: #000;
+}
+
+.back {
+  font-family:'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: 700; /*记得改weight*/
+  text-align: center;
+  color: #000;
+}
+
+.highlight {
+  color:#D40000;
+}
+
+}
+
+@media (max-width:1000px) {
+
+}
