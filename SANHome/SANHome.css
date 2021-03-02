@@ -17,12 +17,12 @@ body {
 /* this is a break between diff divs */
 
 div.hexagon {
-  width: 35px;
-  height: 35px;
+  width: 80px;
+  height: 80px;
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  margin-top: 22%; /* Stay at the top */
-  margin-left: 50%;
+  margin-top: 20%; /* Stay at the top */
+  margin-left: 48%;
   background-color: #00000000; 
   overflow-x: hidden; /* Disable horizontal scroll */
   animation: hexagon 5s ease-in-out infinite forwards;
