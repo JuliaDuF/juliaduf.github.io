@@ -17,8 +17,8 @@ body {
 /* this is a break between diff divs */
 
 div.hexagon {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   margin-top: 20%; /* Stay at the top */
