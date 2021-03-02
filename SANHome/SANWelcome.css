@@ -23,17 +23,17 @@ body {
 
 .title {
   font-family:'Cormorant SC', serif;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 500; /*记得改weight*/
   text-align: center;
-  line-height: 1.9rem;
+  line-height: 2.0rem;
   color: white;
 }
 
 a {
   font-family: 'Cormorant SC', serif;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 500; /*记得改weight*/
   text-align: center;
   color: white;
@@ -72,17 +72,17 @@ body {
 
 .title {
   font-family:'Cormorant SC', serif;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 500; /*记得改weight*/
   text-align: center;
-  line-height: 1.9rem;
+  line-height: 2.0rem;
   color: #000;
 }
 
 a {
   font-family: 'Cormorant SC', serif;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 500; /*记得改weight*/
   text-align: center;
   color: #000;
