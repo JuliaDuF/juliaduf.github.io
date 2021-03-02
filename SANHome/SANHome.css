@@ -61,13 +61,13 @@ div.mvx {
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: mvx 9s ease-in 0s infinite forwards;
+  animation: mvx 9s ease-in 0s infinite forwards, fade 3.5s ease-in;
 }
 
  
 @keyframes mvx {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -92,13 +92,13 @@ div.qwtklm {
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: qwtklm 9s ease-in 0s infinite forwards ;
+  animation: qwtklm 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes qwtklm {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -114,13 +114,13 @@ div.lsienib{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: lsienib 9s ease-in 0s infinite forwards ;
+  animation: lsienib 9s ease-in 0s infinite forwards , fade 3.5s ease-in;
 }
 
 
 @keyframes lsienib {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -136,13 +136,13 @@ div.aleunrib{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: aleunrib 9s ease-in 0s infinite forwards ;
+  animation: aleunrib 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes aleunrib {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -158,13 +158,13 @@ div.azsivn{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: azsivn 9s ease-in 0s infinite forwards ;
+  animation: azsivn 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes azsivn {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -180,13 +180,13 @@ div.ykfre{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: ykfre 9s ease-in 0s infinite forwards ;
+  animation: ykfre 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes ykfre {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -202,13 +202,13 @@ div.diw{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: diw 9s ease-in 0s infinite forwards ;
+  animation: diw 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes diw {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -224,13 +224,13 @@ div.qqocbdx{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: qqocbdx 9s ease-in 0s infinite forwards ;
+  animation: qqocbdx 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes qqocbdx {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -246,13 +246,13 @@ div.pekleubr{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: pekleubr 9s ease-in 0s infinite forwards ;
+  animation: pekleubr 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes pekleubr {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -268,13 +268,13 @@ div.jbsehcse{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: jbsehcse 9s ease-in 0s infinite forwards ;
+  animation: jbsehcse 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes jbsehcse {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -290,13 +290,13 @@ div.szti{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: szti 9s ease-in 0s infinite forwards ;
+  animation: szti 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes szti {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -312,13 +312,13 @@ div.ptuu{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: ptuu 9s ease-in 0s infinite forwards ;
+  animation: ptuu 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes ptuu {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -334,13 +334,13 @@ div.qe{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: qe 9s ease-in 0s infinite forwards ;
+  animation: qe 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes qe {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -356,13 +356,13 @@ div.wuewrn{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: wuewrn 9s ease-in 0s infinite forwards ;
+  animation: wuewrn 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes wuewrn {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -378,13 +378,13 @@ div.ssdghvn{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: ssdghvn 9s ease-in 0s infinite forwards ;
+  animation: ssdghvn 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes ssdghvn {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -400,13 +400,13 @@ div.k{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: k 9s ease-in 0s infinite forwards ;
+  animation: k 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes k {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -422,13 +422,13 @@ div.zopr{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: zopr 9s ease-in 0s infinite forwards ;
+  animation: zopr 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes zopr {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -444,13 +444,13 @@ div.dgccxf{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: dgccxf 9s ease-in 0s infinite forwards ;
+  animation: dgccxf 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes dgccxf {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -467,13 +467,13 @@ div.eitg{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: eitg 9s ease-in 0s infinite forwards ;
+  animation: eitg 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes eitg {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -490,13 +490,13 @@ div.cmlkoperf{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: cmlkoperf 9s ease-in 0s infinite forwards ;
+  animation: cmlkoperf 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes cmlkoperf {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -513,13 +513,13 @@ div.rqaj{
   width: 5px;
   margin-left: 50%; 
   margin-top: 22%;
-  animation: rqaj 9s ease-in 0s infinite forwards ;
+  animation: rqaj 9s ease-in 0s infinite forwards, fade 3.5s ease-in ;
 }
 
 
 @keyframes rqaj {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -543,7 +543,7 @@ div.qwmmr {
  
 @keyframes qwmmr {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -574,7 +574,7 @@ div.ausbxc {
  
 @keyframes ausbxc {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -596,7 +596,7 @@ div.lkhhva {
  
 @keyframes lkhhva {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -619,7 +619,7 @@ div.wvevuicvu {
  
 @keyframes wvevuicvu {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -641,7 +641,7 @@ div.qkndld {
  
 @keyframes qkndld {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -663,7 +663,7 @@ div.sr {
  
 @keyframes sr {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -685,7 +685,7 @@ div.xfp {
  
 @keyframes xfp {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -707,7 +707,7 @@ div.aiwwz {
  
 @keyframes aiwwz {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -729,7 +729,7 @@ div.oxzkkjh {
  
 @keyframes oxzkkjh {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -751,7 +751,7 @@ div.vrkxm {
  
 @keyframes vrkxm {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -773,7 +773,7 @@ div.v {
  
 @keyframes v {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -795,7 +795,7 @@ div.ywwdgf {
  
 @keyframes ywwdgf {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -817,7 +817,7 @@ div.xcv {
  
 @keyframes xcv {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -839,7 +839,7 @@ div.flpcz {
  
 @keyframes flpcz {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -861,7 +861,7 @@ div.zsvm {
  
 @keyframes zsvm {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -883,7 +883,7 @@ div.ci {
  
 @keyframes ci {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -905,7 +905,7 @@ div.uxdr {
  
 @keyframes uxdr {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -927,7 +927,7 @@ div.erouu {
  
 @keyframes erouu {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -949,7 +949,7 @@ div.ttbk {
  
 @keyframes ttbk {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -971,7 +971,7 @@ div.bmxsppfs {
  
 @keyframes bmxsppfs {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -993,7 +993,7 @@ div.hjc {
  
 @keyframes hjc {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1015,7 +1015,7 @@ div.o {
  
 @keyframes o {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1037,7 +1037,7 @@ div.jrsc {
  
 @keyframes jrsc {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1059,7 +1059,7 @@ div.yyxcv {
  
 @keyframes yyxcv {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1081,7 +1081,7 @@ div.iopt {
  
 @keyframes iopt {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1103,7 +1103,7 @@ div.rtfpy {
  
 @keyframes rtfpy {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1125,7 +1125,7 @@ div.hfv {
  
 @keyframes hfv {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1147,7 +1147,7 @@ div.p {
  
 @keyframes p {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1169,7 +1169,7 @@ div.twah {
  
 @keyframes twah {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1191,7 +1191,7 @@ div.r {
  
 @keyframes r {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1213,7 +1213,7 @@ div.kjv {
  
 @keyframes kjv {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1235,7 +1235,7 @@ div.ddmnzjl {
  
 @keyframes ddmnzjl {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1257,7 +1257,7 @@ div.zmkn {
  
 @keyframes zmkn {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1279,7 +1279,7 @@ div.jsbj {
  
 @keyframes jsbj {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1301,7 +1301,7 @@ div.lwthn {
  
 @keyframes lwthn {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1323,7 +1323,7 @@ div.fy {
  
 @keyframes fy {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1345,7 +1345,7 @@ div.skdadlb {
  
 @keyframes skdadlb {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1367,7 +1367,7 @@ div.ygsk {
  
 @keyframes ygsk {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1389,7 +1389,7 @@ div.njqyblyx {
  
 @keyframes njqyblyx {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1411,7 +1411,7 @@ div.zpjd {
  
 @keyframes zpjd {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1433,7 +1433,7 @@ div.kd {
  
 @keyframes kd {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1455,7 +1455,7 @@ div.myld {
  
 @keyframes myld {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1477,7 +1477,7 @@ div.jjcz {
  
 @keyframes jjcz {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1499,7 +1499,7 @@ div.ty {
  
 @keyframes ty {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1521,7 +1521,7 @@ div.shdd {
  
 @keyframes shdd {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1543,7 +1543,7 @@ div.wxkj {
  
 @keyframes wxkj {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1565,7 +1565,7 @@ div.szwx {
  
 @keyframes szwx {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1587,7 +1587,7 @@ div.ppdl {
  
 @keyframes ppdl {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1610,7 +1610,7 @@ div.cgtt {
  
 @keyframes cgtt {
   0% {
-    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+    transform:  scale(0.0) translateX(0px) translateY(0px) translateZ(0px) ; 
   }
 
   100% {
@@ -1623,7 +1623,7 @@ div.cgtt {
 
 .superword {
   font-family:'Cormorant SC', serif;
-  font-size: 7rem;
+  font-size: 9rem;
   font-weight: 700px;
   text-align: center;
   color: white;
@@ -1631,7 +1631,7 @@ div.cgtt {
 
 .largeword {
   font-family:'Cormorant SC', serif;
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: 700px;
   text-align: center;
   color: white;
@@ -1639,7 +1639,7 @@ div.cgtt {
 
 .midword {
   font-family:'Cormorant SC', serif;
-  font-size: 2.0rem;
+  font-size: 3rem;
   font-weight: 700px;
   text-align: center;
   color: white;
@@ -1647,7 +1647,7 @@ div.cgtt {
 
 .smallword {
   font-family:'Cormorant SC', serif;
-  font-size: 0.8rem;
+  font-size: 1.7rem;
   font-weight: 700px;
   text-align: center;
   color: white;
@@ -1655,7 +1655,7 @@ div.cgtt {
 
 .tinyword {
   font-family:'Cormorant SC', serif;
-  font-size: 0.3rem;
+  font-size: 1.0rem;
   font-weight: 700px;
   text-align: center;
   color: white;
