@@ -1,0 +1,1770 @@
+html {
+  font-family: 'Cormorant SC', serif;
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+/*CTTL=Centertotopleft, CTTR=Centertotopleft, CTBL=Centertobottomleft, CTBR=Centertobottomright*/
+
+/* this is a break between diff divs */
+
+/* this is a break between diff divs */
+
+div.hexagon {
+  width: 35px;
+  height: 35px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  margin-top: 22%; /* Stay at the top */
+  margin-left: 50%;
+  background-color: #00000000; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  animation: hexagon 5s ease-in-out infinite forwards;
+  transition: all 3s ease-out;
+  transform-origin: 50% 50%;
+}
+
+  .cls-1{fill:#00000000;}
+  .cls-2{fill:#FFF;}
+
+@keyframes hexagon {
+  0% {
+    transform:  scale(0.8) rotate(0deg) ; 
+  }
+
+  50% {
+    transform:  scale(1.2) rotate(180deg) ; 
+  }
+
+  100% {
+    transform:  scale(0.8) rotate(360deg) ; 
+  }
+
+}
+
+.hexagon:hover {
+  cursor: pointer;
+  filter: invert(0.5) sepia(1) hue-rotate(315deg) saturate(10) brightness(1);
+  transform: scale(3)
+}
+
+
+div.mvx {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: mvx 9s ease-in 0s infinite forwards;
+}
+
+ 
+@keyframes mvx {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1000px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+/*mvx 6s ease-in -3s infinite forwards, fade 3s ease-in;
+@keyframes fade {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}*/
+
+/* this is a break between diff divs */
+
+div.qwtklm {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: qwtklm 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes qwtklm {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(200px) translateY(600px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.lsienib{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: lsienib 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes lsienib {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(700px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.aleunrib{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: aleunrib 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes aleunrib {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(350px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.azsivn{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: azsivn 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes azsivn {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-750px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* ykfre same position as azsivn */
+
+div.ykfre{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ykfre 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes ykfre {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1000px) translateY(-300px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.diw{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: diw 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes diw {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(200px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.qqocbdx{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: qqocbdx 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes qqocbdx {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.pekleubr{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: pekleubr 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes pekleubr {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.jbsehcse{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: jbsehcse 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes jbsehcse {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-800px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.szti{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: szti 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes szti {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-450px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ptuu{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ptuu 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes ptuu {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(900px) translateY(550px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.qe{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: qe 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes qe {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-250px) translateY(-650px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.wuewrn{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: wuewrn 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes wuewrn {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1100px) translateY(-50px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ssdghvn{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ssdghvn 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes ssdghvn {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1100px) translateY(550px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.k{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: k 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes k {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1100px) translateY(-40px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.zopr{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: zopr 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes zopr {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(400px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.dgccxf{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: dgccxf 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes dgccxf {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(800px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+
+/* this is a break between diff divs */
+
+div.eitg{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: eitg 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes eitg {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1000px) translateY(-20px) translateZ(0px) ; 
+  }
+}
+
+
+/* this is a break between diff divs */
+
+div.cmlkoperf{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: cmlkoperf 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes cmlkoperf {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-400px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+
+/* this is a break between diff divs */
+
+div.rqaj{
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: rqaj 9s ease-in 0s infinite forwards ;
+}
+
+
+@keyframes rqaj {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-900px) translateY(-400px) translateZ(0px) ; 
+  }
+}
+
+
+/* ROUND TWO / ROUND TWO / ROUND TWO / ROUND TWO / ROUND TWO / ROUND TWO / */
+
+
+div.qwmmr {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: qwmmr 9s ease-in -4.5s infinite forwards, fade 3s ease-in;;
+}
+
+ 
+@keyframes qwmmr {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1000px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ausbxc {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ausbxc 9s ease-in -4.5s infinite forwards, fade 3s ease-in;;
+}
+
+ 
+@keyframes ausbxc {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(200px) translateY(600px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.lkhhva {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: lkhhva 9s ease-in -4.5s infinite forwards, fade 3s ease-in;;
+}
+
+ 
+@keyframes lkhhva {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(700px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+
+/* this is a break between diff divs */
+
+div.wvevuicvu {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: wvevuicvu 9s ease-in -4.5s infinite forwards, fade 3s ease-in;;
+}
+
+ 
+@keyframes wvevuicvu {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(350px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.qkndld {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: qkndld 9s ease-in -4.5s infinite forwards, fade 3s ease-in;;
+}
+
+ 
+@keyframes qkndld {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-750px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.sr {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: sr 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes sr {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1000px) translateY(-300px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.xfp {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: xfp 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes xfp {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(200px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.aiwwz {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: aiwwz 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes aiwwz {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.oxzkkjh {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: oxzkkjh 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes oxzkkjh {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.vrkxm {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: vrkxm 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes vrkxm {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-800px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.v {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: v 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes v {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-450px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ywwdgf {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ywwdgf 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes ywwdgf {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(900px) translateY(550px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.xcv {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: xcv 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes xcv {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-250px) translateY(-650px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.flpcz {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: flpcz 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes flpcz {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1100px) translateY(550px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.zsvm {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: zsvm 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes zsvm {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1100px) translateY(-50px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ci {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ci 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes ci {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1100px) translateY(-40px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.uxdr {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: uxdr 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes uxdr {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(400px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.erouu {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: erouu 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes erouu {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(800px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ttbk {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ttbk 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes ttbk {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1000px) translateY(-20px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.bmxsppfs {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: bmxsppfs 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes bmxsppfs {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-400px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.hjc {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: hjc 9s ease-in -4.5s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes hjc {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-900px) translateY(-400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.o {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: o 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes o {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-900px) translateY(-400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.jrsc {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: jrsc 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes jrsc {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1000px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.yyxcv {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: yyxcv 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes yyxcv {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(200px) translateY(600px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.iopt {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: iopt 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes iopt {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(350px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.rtfpy {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: rtfpy 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes rtfpy {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(700px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.hfv {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: hfv 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes hfv {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-750px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.p {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: p 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes p {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(200px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.twah {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: twah 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes twah {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-450px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.r {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: r 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes r {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-900px) translateY(-400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.kjv {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: kjv 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes kjv {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1000px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ddmnzjl {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ddmnzjl 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes ddmnzjl {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(200px) translateY(600px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.zmkn {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: zmkn 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes zmkn {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(700px) translateY(400px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.jsbj {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: jsbj 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes jsbj {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(350px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.lwthn {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: lwthn 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes lwthn {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-750px) translateY(-450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.fy {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: fy 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes fy {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(200px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.skdadlb {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: skdadlb 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes skdadlb {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-450px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ygsk {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ygsk 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes ygsk {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.njqyblyx {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: njqyblyx 9s ease-in -2.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes njqyblyx {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1500px) translateY(0px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.zpjd {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: zpjd 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes zpjd {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-800px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.kd {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: kd 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes kd {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-800px) translateY(450px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.myld {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: myld 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes myld {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-1100px) translateY(550px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.jjcz {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: jjcz 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes jjcz {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1100px) translateY(-50px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ty {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ty 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes ty {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(1100px) translateY(-40px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.shdd {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: shdd 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes shdd {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(400px) translateY(-500px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.wxkj {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: wxkj 9s ease-in -6.75s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes wxkj {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-250px) translateY(-650px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.szwx {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: szwx 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes szwx {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-250px) translateY(-650px) translateZ(0px) ; 
+  }
+}
+
+/* this is a break between diff divs */
+
+div.ppdl {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: ppdl 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes ppdl {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(-550px) translateY(550px) translateZ(0px) ; 
+  }
+}
+
+
+/* this is a break between diff divs */
+
+div.cgtt {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  margin-left: 50%; 
+  margin-top: 22%;
+  animation: cgtt 9s ease-in -2.25s infinite forwards, fade 3s ease-in;
+}
+
+ 
+@keyframes cgtt {
+  0% {
+    transform:  scale(0.1) translateX(0px) translateY(0px) translateZ(0px) ; 
+  }
+
+  100% {
+    transform:  scale(1.0) translateX(550px) translateY(-550px) translateZ(0px) ; 
+  }
+}
+
+
+
+
+.superword {
+  font-family:'Cormorant SC', serif;
+  font-size: 7rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
+}
+
+.largeword {
+  font-family:'Cormorant SC', serif;
+  font-size: 5rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
+}
+
+.midword {
+  font-family:'Cormorant SC', serif;
+  font-size: 2.0rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
+}
+
+.smallword {
+  font-family:'Cormorant SC', serif;
+  font-size: 0.8rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
+}
+
+.tinyword {
+  font-family:'Cormorant SC', serif;
+  font-size: 0.3rem;
+  font-weight: 700px;
+  text-align: center;
+  color: white;
+}
+
+
+.colorwhite {
+  color:#FFFFFF;
+}
+
+a {
+  font-family: 'Cormorant SC', serif;
+  text-decoration: none;
+  font-size: ;
+  line-height: ;
+  color: ;
+}
+
+a:hover, h3:hover{
+  color: red;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-content: ;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cormorant SC', serif;
+}
+
+h1 {
+  font-size:2.75rem;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:1.0rem;
+
+}
+
+@media (max-width:700px) {
+  body {
+  background-color: white;
+}
+
+  .superword {
+  font-family:'Cormorant SC', serif;
+  font-size: 7rem;
+  font-weight: 700px;
+  text-align: center;
+  color: black;
+}
+
+.largeword {
+  font-family:'Cormorant SC', serif;
+  font-size: 5rem;
+  font-weight: 700px;
+  text-align: center;
+  color: black;
+}
+
+.midword {
+  font-family:'Cormorant SC', serif;
+  font-size: 1.5rem;
+  font-weight: 700px;
+  text-align: center;
+  color: black;
+}
+
+.smallword {
+  font-family:'Cormorant SC', serif;
+  font-size: 0.8rem;
+  font-weight: 700px;
+  text-align: center;
+  color: black;
+}
+
+.tinyword {
+  font-family:'Cormorant SC', serif;
+  font-size: 0.3rem;
+  font-weight: 700px;
+  text-align: center;
+  color: black;
+}
+
+ a:hover, h3:hover{
+  color: #D40000;
+  text-decoration: none;
+}
+
+  div.hexagon {
+  width: 55px;
+  height: 55px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  margin-top: 22%; /* Stay at the top */
+  margin-left: 48%;
+  background-color: #ffffff00; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  animation: hexagon 3s ease-in-out infinite forwards;
+  transition: all 1.5s ease-in-out;
+  transform-origin: 50% 50%;
+}
+
+  .cls-1{fill:#FFFFFF00;}
+  .cls-2{fill:#000000;}
+
+
