@@ -146,6 +146,7 @@ movies.forEach(function(item) {
   console.log(item);
 });
 
+/*
 
 /* 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 */
 /* An array of arrays. Define a var. */
@@ -196,7 +197,7 @@ for (var i = 0; i < arrayLength; i++) {
 /* 11 */
 //Create a nested for loop that loops through the array of your favorite items and logs each individual item. The first loop should log the category of the item, while the nested loop should log each individual item in that category.//
 
-
+/*
 console.log("My favorite restaurants:");
 
 var queue1 = new Array();
@@ -245,5 +246,6 @@ queue4.push('The Grand Budapest Hotel');
 console.log(queue4.shift());  
 console.log(queue4.shift());  
 console.log(queue4.shift()); 
+*/
 
 
