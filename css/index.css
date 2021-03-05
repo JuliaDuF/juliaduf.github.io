@@ -5,9 +5,8 @@ html {
 }
 
 body {
-  padding:0rem;
   color:#F9F8F6;
-  width: 100vw;
+  width: auto;
   height: auto;
 }
 
@@ -15,13 +14,14 @@ a {
   text-decoration: none;
   font-family: 'Sen', sans-serif;
   font-weight:200;
-  line-height: 0.1rem;
+  line-height: 1.2rem;
   color: #000000;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ee6050;
+  background-color: #ff005d;
+  color: white;
 }
 
 main {
@@ -99,8 +99,6 @@ h4 {
 li {
   font-size: 0.6rem;
   font-family: 'Libre Calson Text', serif;
-  line-height: 0.5rem;
-  padding: .5rem 0;
   display:grid;
 }
 
@@ -149,46 +147,7 @@ figcaption {
 
 .subtitle {
   font-family: 'Sen', sans-serif;
-  font-weight:-200;
   font-size: 0.8rem;
-  line-height: 0.8rem;
+  line-height: 0rem;
   color: #242320;
-  margin-left: 0.5rem;
-}
-
-
-#sidebar {
-  position: absolute;
-  width: 300px;
-  height: 100%;
-  background: #000;
-  left: -300px;
-  transition: .4s;
-
-}
-
-#sidebar.active {
-  left: 0;
-
-}
-
-#sidebar ul li {
-  list-style: none;
-  color: #000;
-  font-size : 15px;
-  padding: 20px 24px;
-}
-
-#sidebar. toggle-btn {
-  position: absolute;
-  top: 30px;
-  left: 330px;
-}
-
-.toggle-btn span {
-  width: 45px;
-  height: 4px;
-  background: #000;
-  display : block;
-  margin-top: 4px;
 }
