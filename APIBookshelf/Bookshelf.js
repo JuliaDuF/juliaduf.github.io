@@ -58,8 +58,6 @@ function showBooks() {
 }
 
 
-// NEW DEMO MAKE BOOK SPINES//
-
 // create the book-spines on the shelf
 function showBooks() {
   console.log("showBooks()");
@@ -82,8 +80,6 @@ function showBooks() {
   });
 }
 
-
-
 // show the detail info for a book, and highlight the active book-spine
 function showBook(book, div) {
   console.log("showBook()", book);
@@ -95,7 +91,7 @@ function showBook(book, div) {
   bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; //
   bookDetail.getElementsByClassName("description")[0].innerText =
     book.fields.description;
-  bookDetail.getElementsByClassName("more")[0].href = book.fields.more_info;
+  bookDetail.getElementsByClassName("more")[0].href = book.fields.more;
   bookDetail.getElementsByClassName("cover-image")[0].src =
     book.fields.cover_image[0].url;
 
@@ -112,16 +108,3 @@ function showBook(book, div) {
   // but its not hurting to do it more than once
   bookDetail.classList.remove("hidden");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
