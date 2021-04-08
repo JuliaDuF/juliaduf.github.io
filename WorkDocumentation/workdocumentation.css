@@ -54,6 +54,11 @@ iframe{
   border: none;
 }
 
+img{
+  width: auto;
+  height: auto;
+}
+
 .title {
   font-family: 'Staatliches', cursive;
   font-size: 5rem;
