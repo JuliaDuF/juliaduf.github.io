@@ -1,0 +1,261 @@
+html {
+  font-family: 'Staatliches', cursive;
+}
+
+body {
+  margin-top: 6rem;
+	margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Staatliches', cursive;
+}
+
+.videobox {
+  width: 1000px;
+  height: 504px;
+  align-content: center;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 12%;
+}
+
+.videobox2 {
+  width: 1000px;
+  height: 690px;
+  align-content: center;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 12%;
+}
+
+.videobox3 {
+  width: 1000px;
+  height: 625px;
+  align-content: center;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 12%;
+}
+
+.videobox4 {
+  width: 400px;
+  height: 530px;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 19%;
+}
+
+iframe{
+  width: 1000px;
+  height: 504px;
+  align-content: center;
+  border: none;
+}
+
+.title {
+  font-family: 'Staatliches', cursive;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
+.title2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.title3 {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.8rem;
+  text-align: left;
+  margin-left: 9.5rem;
+  line-height: 2rem;
+}
+
+.paragraph {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 9.5rem;
+  margin-right: 7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0a53f2;
+}
+
+.row {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+}
+
+.col {
+flex: 1;
+}
+
+.col-1 {
+  width: 80%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+  
+  html {
+  font-family: 'Staatliches', cursive;
+}
+
+  body {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Staatliches', cursive;
+}
+
+.videobox {
+  width: 1000px;
+  height: 504px;
+  align-content: center;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 4%;
+}
+
+.videobox2 {
+  width: 1000px;
+  height: 690px;
+  align-content: center;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 4%;
+}
+
+.videobox3 {
+  width: 1000px;
+  height: 625px;
+  align-content: center;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 4%;
+}
+
+.videobox4 {
+  width: 400px;
+  height: 530px;
+  background: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    margin-left: 4%;
+}
+
+iframe{
+  width: 1000px;
+  height: 504px;
+  align-content: center;
+  border: none;
+}
+
+.title {
+  font-family: 'Staatliches', cursive;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
+.title2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.title3 {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.8rem;
+  text-align: left;
+  margin-left: 1rem;
+  line-height: 2rem;
+}
+
+.paragraph {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0a53f2;
+}
+
+.row {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+}
+
+.col {
+flex: 1;
+}
+
+.col-1 {
+  width: 80%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 50%;
+}
+
+
+
+
+
+
+  }
