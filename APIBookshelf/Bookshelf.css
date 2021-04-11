@@ -1,80 +1,125 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 body {
-  font-family: 'Quicksand', sans-serif;
   background: white;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
 }
 
 .hidden {
   display: none !important;
 }
 
+
 .shelf {
-  border-bottom: 10px solid black;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 2em;
+  margin-top: 3rem;
 }
 
 .shelf .book-spine {
-  background: black;
-  color: white;
-
-  height: fit-content;
-  width: 30px;
+  background: white;
+  color: black;
+  font-family: 'Staatliches', cursive;
+  height: 20px;
+  width: auto;
   padding: 10px 0px;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
   margin-right: 2px;
-  transform: rotate(180deg);
+  box-shadow: 0 0 20px 10px rgba(0,0,0.1,0);
+  /*transform: rotate(180deg);*/
 
-  writing-mode: vertical-lr;
-  line-height: 30px;
-  font-size: 16px;
+  /*writing-mode: vertical-lr;*/
+  line-height: auto;
+  font-size: 1rem;
+  text-align: center;
 
   cursor: pointer;
 }
 
 .shelf .book-spine.active {
-  background: red;
+  background: black;
+  color: white;
 }
 
 .shelf .book-spine:hover {
-  background: #f00;
+  background: pink;
 }
 
 .book-detail {
   display: flex;
+  margin-top: 5rem;
 }
 
 .book-detail .figure {
-  width: 200px;
+  width: 400px;
   flex: none;
   margin-right: 30px;
 }
 
 .book-detail .cover-image {
   width: 100%;
-  border: 5px solid black;
+  border: none;
   padding: 5px;
   box-sizing: border-box;
 }
 
 .book-detail .info {
   max-width: 600px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title0 {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
 }
 
 .book-detail .title {
-  font-size: 18px;
+  font-size: 2rem;
   text-transform: uppercase;
   margin-top: 0;
+  font-family: 'Staatliches', cursive;
 }
 
 .book-detail .description {
-  margin-top: 0.5em;
-  font-size: 36px;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
   line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width: 900px) {
+  
+  body {
+  background: white;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+  .book-detail {
+    flex-direction: column;
+  }
+  .book-detail .figure {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+  }
 }
 
 @media (max-width: 600px) {
+  
+  body {
+  background: white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
   .book-detail {
     flex-direction: column;
   }
