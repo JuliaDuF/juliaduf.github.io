@@ -38,7 +38,16 @@ body {
   background-color: black;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  width: 160px;
+  width: 300px;
+  height: 160px;
+  position: absolute;
+}
+
+.video-container {
+  background-color: black;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  width: 200px;
   height: 160px;
   position: absolute;
 }
@@ -47,6 +56,36 @@ body {
   width: 160px;
   height: 160px;
   position: absolute;
+}
+
+.hand-video {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+
+.letter-text {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  position: block;
+  margin-left: 5rem;
+}
+
+.leftbar-container{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+}
+
+.filter {
+  padding: 2rem;
+}
+
+h3 {
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+  position: block;
+  margin-left: 5rem;
 }
 
 h2 {
