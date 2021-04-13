@@ -47,14 +47,52 @@ function consoleLogBooks() {
   });
 }
 
-/* (LEFT BAR CREDIT)*/
-// loop through the books, create an h2 for each one, and add it to the page
+
+// loop through the images (books), create an h3 for each one, and add it to the page
 function showBooks() {
   console.log("showBooks()");
     books.forEach((book) => {
     const h3 = document.createElement("h3");
     h3.innerText = book.fields.genre;
     document.body.appendChild(h3);
+
+// create a container for the images
+    var imageContainer = document.createElement("div");
+    imageContainer.classList.add("image-container");
+    imageContainer.style.right = (90 * Math.random()) + '%';
+    imageContainer.style.top = (2000 * Math.random()) + '%';
+    document.querySelector(".container").append(imageContainer);
+
+// add images in containers
+    var handImage = document.createElement("img");
+    handImage.classList.add("hand-image");
+    handImage.src = book.fields.hand_image[0].url;
+    imageContainer.append(handImage);
+
+// Note: Everything above works fine. The images were shown in their containers as I expeceted. 
+// But when I added this part below, (a filter applied to all images)
+// Both images and their containers stopped showing up, and the overall layout is messed up.
+
+// add Genre link to image container
+    var imageGenre = book.fields.genre;
+    imageGenre.forEach (function(genre){
+      imageContainer.classList.add(genre)})
+
+// add Event Listener to Genre
+    var filterA = document.querySelector('.filter-a');
+    filterA.addEventListener("click",function(){
+
+      if (imageContainer.classList.contains("A")) {
+        imageContainer.style.visibility = 'visible';
+      } else {
+        imageContainer.style.visibility = 'hidden';
+      }
+    })
+
+
+  });
+}
+
 
 /*
 // create a container for the leftbar navigation
@@ -71,43 +109,6 @@ function showBooks() {
     imageContainer.append(letterText);
 
 */
-
-// create a container for the images
-    var imageContainer = document.createElement("div");
-    imageContainer.classList.add("image-container");
-    imageContainer.style.right = (90 * Math.random()) + '%';
-    imageContainer.style.top = (2000 * Math.random()) + '%';
-    document.querySelector(".container").append(imageContainer);
-
-// add images in containers
-    var handImage = document.createElement("img");
-    handImage.classList.add("hand-image");
-    handImage.src = book.fields.hand_image[0].url;
-    imageContainer.append(handImage);
-
-
-
-
-
-// add Genre link to image container
-    var imageGenre = book.fields.genre;
-    imageGenre.forEach (function(genre){
-      imageContainer.classList.add(genre)})
-
-// add Event Listener to Genre
-    var filterA = document.querySelector('.filter-a');
-    filterA.addEventListener("click",function(){
-
-      if (imageContainer.classList.contains("A")) {
-        imageContainer.style.background = 'red';
-      } else {
-        imageContainer.style.background = 'blue';
-      }
-    })
-
-
-  });
-}
 
 
 /*
