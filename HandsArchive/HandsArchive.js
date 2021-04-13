@@ -47,14 +47,30 @@ function consoleLogBooks() {
   });
 }
 
-
+/* (LEFT BAR CREDIT)*/
 // loop through the books, create an h2 for each one, and add it to the page
 function showBooks() {
   console.log("showBooks()");
-  books.forEach((book) => {
-    const h2 = document.createElement("h2");
-    h2.innerText = book.fields.credit;
-    document.body.appendChild(h2);
+    books.forEach((book) => {
+    const h3 = document.createElement("h3");
+    h3.innerText = book.fields.genre;
+    document.body.appendChild(h3);
+
+/*
+// create a container for the leftbar navigation
+    var leftbarContainer = document.createElement("div");
+    leftbarContainer.classList.add("leftbar-container");
+    leftbarContainer.style.right = (90 * Math.random()) + '%';
+    leftbarContainer.style.top = (90 * Math.random()) + '%';
+    document.querySelector(".leftbarcontainer").append(leftbarContainer);
+
+// add letter in containers
+    var letterText = document.createElement("text");
+    letterText.classList.add("letter-text");
+    letterText.src = book.fields.Letter[0].url;
+    imageContainer.append(letterText);
+
+*/
 
 // create a container for the images
     var imageContainer = document.createElement("div");
@@ -63,17 +79,54 @@ function showBooks() {
     imageContainer.style.top = (2000 * Math.random()) + '%';
     document.querySelector(".container").append(imageContainer);
 
-
 // add images in containers
     var handImage = document.createElement("img");
     handImage.classList.add("hand-image");
     handImage.src = book.fields.hand_image[0].url;
     imageContainer.append(handImage);
-    
+
+
+
+
+
+// add Genre link to image container
+    var imageGenre = book.fields.genre;
+    imageGenre.forEach (function(genre){
+      imageContainer.classList.add(genre)})
+
+// add Event Listener to Genre
+    var filterA = document.querySelector('.filter-a');
+    filterA.addEventListener("click",function(){
+
+      if (imageContainer.classList.contains("A")) {
+        imageContainer.style.background = 'red';
+      } else {
+        imageContainer.style.background = 'blue';
+      }
+    })
+
 
   });
 }
 
+
+/*
+
+// create a container for the videos
+    var videoContainer = document.createElement("div");
+    videoContainer.classList.add("video-container");
+    videoContainer.style.right = (90 * Math.random()) + '%';
+    videoContainer.style.top = (2000 * Math.random()) + '%';
+    document.querySelector(".container2").append(videoContainer);
+
+
+// add videos in containers
+    var handVideo = document.createElement("video");
+    handVideo.classList.add("hand-video");
+    handVideo.src = book.fields.hand_video[0].url;
+    imageContainer.append(handVideo);
+    
+    */
 
 
 /*
