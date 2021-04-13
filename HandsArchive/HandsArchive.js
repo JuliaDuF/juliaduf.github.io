@@ -9,23 +9,23 @@ var base = new Airtable({ apiKey: "keyLcTgqOkYLvbG5V" }).base(
 );
 
 //get the "books" table from the base, select ALL the records, and specify the functions that will receive the data
-base("table").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+base("table").select({}).eachPage(gotPageOfHands, gotAllHands);
 
 // an empty array to hold our book data
-const books = [];
+const hands = [];
 
 // callback function that receives our data
-function gotPageOfBooks(records, fetchNextPage) {
-  console.log("gotPageOfBooks()");
+function gotPageOfHands(records, fetchNextPage) {
+  console.log("gotPageOfHands()");
   // add the records from this page to our books array
-  books.push(...records);
+  hands.push(...records);
   // request more pages
   fetchNextPage();
 }
 
 // call back function that is called when all pages are loaded
-function gotAllBooks(err) {
-  console.log("gotAllBooks()");
+function gotAllHands(err) {
+  console.log("gotAllHands()");
 
   // report an error, you'd want to do something better than this in production
   if (err) {
@@ -35,26 +35,26 @@ function gotAllBooks(err) {
   }
 
   // call functions to log and show the books
-  consoleLogBooks();
-  showBooks();
+  consoleLogHands();
+  showHands();
 }
 
 // just loop through the books and console.log them
-function consoleLogBooks() {
-  console.log("consoleLogBooks()");
-  books.forEach((book) => {
-    console.log("Book:", book);
+function consoleLogHands() {
+  console.log("consoleLogHands()");
+  hands.forEach((hand) => {
+    console.log("Hand:", hand);
   });
 }
 
 
 // loop through the images (books), create an h3 for each one, and add it to the page
-function showBooks() {
-  console.log("showBooks()");
-    books.forEach((book) => {
-    const h3 = document.createElement("h3");
-    h3.innerText = book.fields.genre;
-    document.body.appendChild(h3);
+function showHands() {
+  console.log("showHands()");
+    hands.forEach((hand) => {
+   /* const h3 = document.createElement("h3");
+    h3.innerText = hand.fields.genre;
+    document.body.appendChild(h3); */
 
 // create a container for the images
     var imageContainer = document.createElement("div");
@@ -66,17 +66,21 @@ function showBooks() {
 // add images in containers
     var handImage = document.createElement("img");
     handImage.classList.add("hand-image");
-    handImage.src = book.fields.hand_image[0].url;
+    handImage.src = hand.fields.hand_image[0].url;
     imageContainer.append(handImage);
 
 // Note: Everything above works fine. The images were shown in their containers as I expeceted. 
 // But when I added this part below, (a filter applied to all images)
 // Both images and their containers stopped showing up, and the overall layout is messed up.
 
+
+
 // add Genre link to image container
-    var imageGenre = book.fields.genre;
-    imageGenre.forEach (function(genre){
+   if ('genre' in hand.fields) {
+      var imageGenre = hand.fields.genre;
+      imageGenre.forEach (function(genre){
       imageContainer.classList.add(genre)})
+    }
 
 // add Event Listener to Genre
     var filterA = document.querySelector('.filter-a');
@@ -84,10 +88,16 @@ function showBooks() {
 
       if (imageContainer.classList.contains("A")) {
         imageContainer.style.visibility = 'visible';
+        imageContainer.style.right = (90 * Math.random()) + '%';
+        imageContainer.style.top = (90 * Math.random()) + '%';
       } else {
         imageContainer.style.visibility = 'hidden';
       }
     })
+
+
+
+
 
 
   });
