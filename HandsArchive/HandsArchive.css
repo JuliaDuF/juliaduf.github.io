@@ -79,6 +79,14 @@ body {
 
 .filter {
   padding: 2rem;
+  width: 1.2rem;
+  flex-direction: column;
+}
+
+
+.filtertext {
+  font-size: 1.5rem;
+  line-height: 4rem;
 }
 
 h3 {
