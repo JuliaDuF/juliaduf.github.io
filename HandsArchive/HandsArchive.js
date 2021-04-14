@@ -56,6 +56,7 @@ function showHands() {
     h3.innerText = hand.fields.genre;
     document.body.appendChild(h3); */
 
+
 // create a container for the images
     var imageContainer = document.createElement("div");
     imageContainer.classList.add("image-container");
@@ -69,12 +70,18 @@ function showHands() {
     handImage.src = hand.fields.hand_image[0].url;
     imageContainer.append(handImage);
 
-// Note: Everything above works fine. The images were shown in their containers as I expeceted. 
-// But when I added this part below, (a filter applied to all images)
-// Both images and their containers stopped showing up, and the overall layout is messed up.
+  //add detailed info & captions to pop up box
+    var instaCaption = document.createElement("p");
+    instaCaption.classList.add("insta-caption");
+    instaCaption.innerText = hand.fields.insta_caption;
+    imageContainer.append(instaCaption);
 
+  //appear & disappear
+  imageContainer.addEventListener("click", function(){
+    instaCaption.classList.toggle("active");
+  })
 
-
+//A single genre filter 
 // add Genre link to image container
    if ('genre' in hand.fields) {
       var imageGenre = hand.fields.genre;
@@ -96,6 +103,55 @@ function showHands() {
     })
 
 
+//make genre filter apply to all 26 containers
+  document.querySelector('.filter').addEventListener('click', (event) => {
+    if (event.target.tagName === 'SPAN') {
+        document.querySelectorAll('.image-container').forEach((imageContainer) => {
+    if (imageContainer.classList.contains(event.target.textContent)) {
+        imageContainer.style.visibility = '';
+        imageContainer.style.right = (90 * Math.random()) + '%';
+        imageContainer.style.top = (90 * Math.random()) + '%';
+    } else {
+        imageContainer.style.visibility = 'hidden';
+    }
+});
+    }
+});
+
+
+  //buttons
+    const openModalButtons = document.querySelectorAll('[data-modal-target]')
+    const closeModalButtons = document.querySelectorAll('[data-modal-close]')
+    /*const overlay = document.getElementById('overlay')*/
+
+  //open modal
+    openModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget)
+        openModal(modal)
+      })
+    })
+
+  //close modal *for some reason the popup box is unable to close
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+        closeModal (modal)
+      })
+    })
+
+
+    function openModal(modal) {
+     if (modal == null) return
+     modal.classList.add('active')
+      /*overlay.classList.add('active')*/
+    }
+
+    function closeModal(modal) {
+     if (modal == null) return
+     modal.classList.remove('active')
+      /*overlay.classList.remove('active')*/
+    }
 
 
 
