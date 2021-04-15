@@ -70,98 +70,16 @@ function showHands() {
     handImage.src = hand.fields.hand_image[0].url;
     imageContainer.append(handImage);
 
-  //add detailed info & captions to pop up box
-    var instaCaption = document.createElement("p");
-    instaCaption.classList.add("insta-caption");
-    instaCaption.innerText = hand.fields.insta_caption;
-    imageContainer.append(instaCaption);
-
-  //appear & disappear
-  imageContainer.addEventListener("click", function(){
-    instaCaption.classList.toggle("active");
-  })
-
-//A single genre filter 
-// add Genre link to image container
-   if ('genre' in hand.fields) {
-      var imageGenre = hand.fields.genre;
-      imageGenre.forEach (function(genre){
-      imageContainer.classList.add(genre)})
-    }
-
-// add Event Listener to Genre
-    var filterA = document.querySelector('.filter-a');
-    filterA.addEventListener("click",function(){
-
-      if (imageContainer.classList.contains("A")) {
-        imageContainer.style.visibility = 'visible';
-        imageContainer.style.right = (90 * Math.random()) + '%';
-        imageContainer.style.top = (90 * Math.random()) + '%';
-      } else {
-        imageContainer.style.visibility = 'hidden';
-      }
-    })
-
-
-//make genre filter apply to all 26 containers
-  document.querySelector('.filter').addEventListener('click', (event) => {
-    if (event.target.tagName === 'SPAN') {
-        document.querySelectorAll('.image-container').forEach((imageContainer) => {
-    if (imageContainer.classList.contains(event.target.textContent)) {
-        imageContainer.style.visibility = '';
-        imageContainer.style.right = (90 * Math.random()) + '%';
-        imageContainer.style.top = (90 * Math.random()) + '%';
-    } else {
-        imageContainer.style.visibility = 'hidden';
-    }
-});
-    }
-});
-
-
-  //buttons
-    const openModalButtons = document.querySelectorAll('[data-modal-target]')
-    const closeModalButtons = document.querySelectorAll('[data-modal-close]')
-    /*const overlay = document.getElementById('overlay')*/
-
-  //open modal
-    openModalButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalTarget)
-        openModal(modal)
-      })
-    })
-
-  //close modal
-    closeModalButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const modal = button.closest('.modal')
-        closeModal (modal)
-      })
-    })
-
-
-    function openModal(modal) {
-     if (modal == null) return
-     modal.classList.add('active')
-      /*overlay.classList.add('active')*/
-    }
-
-    function closeModal(modal) {
-     if (modal == null) return
-     modal.classList.remove('active')
-      /*overlay.classList.remove('active')*/
-    }
 
 
 
-
-
-
-
-
-
-
+function hoverElement(event) {
+  if (event.target.tagName == 'IMG') {
+    event.target.classList.add('yellow');
+  }
+}
+let poem = document.querySelector('.borges-poem');
+poem.addEventListener('mouseover', hoverElement);
 
 
   });
