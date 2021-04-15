@@ -11,6 +11,37 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+a {
+  font-size: 1.5rem;
+  line-height: 4rem;
+  font-family: fino-sans, sans-serif;
+  font-weight: 400;
+  text-decoration-line: none;
+  font-style: normal;
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+.home1 {
+  padding-left: 5%;
+  padding-top: 0.8rem;
+  width: 1.2rem;
+  position: fixed;
+  flex-direction: column;
+}
+
+.home2 {
+  margin-left: 90%;
+  padding-top: 0.8rem;
+  width: 1.2rem;
+  position: fixed;
+  flex-direction: column;
+}
+
 .title0 {
   text-align: center;
   font-family: fino-sans, sans-serif;
@@ -38,8 +69,8 @@ body {
   background-color: black;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   position: absolute;
 }
 
@@ -53,8 +84,8 @@ body {
 }
 
 .hand-image {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   position: absolute;
 }
 
@@ -71,27 +102,41 @@ body {
   background-color: black;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  width: 400px;
-  height: 400px;
+  width: 180px;
+  height: 180px;
   position: absolute;
 }
 
 .hand-image:hover {
-  width: 400px;
-  height: 400px;
+  width: 180px;
+  height: 180px;
   position: absolute;
 }
 
 .insta-caption {
   font-family: 'Quicksand', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  display: none;
+  color: black;
+  background-color: white;
+  margin-top: 240px;
+}
+
+.insta-caption.active {
+  display: block;
+  position: absolute;
+}
+
+.credit {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
   display: none;
   color: black;
   background-color: white;
   margin-top: 180px;
 }
 
-.insta-caption.active {
+.credit.active {
   display: block;
   position: absolute;
 }
@@ -122,10 +167,12 @@ button {
 
 .filter {
   padding-left: 3rem;
+  padding-top: 1rem;
   width: 1.2rem;
   flex-direction: column;
   height: 900px;
   z-index: 99;
+  position: absolute;
 }
 
 .filtertext {
@@ -227,4 +274,42 @@ h2:hover {
   position: left;
   align-content: center;
 }
+
+img {
+  width: 180px;
+  height: 180px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 0%;
+}
+
+img.yellow {
+  opacity: 1;
+}
+
+span {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+span.yellow {
+  opacity: 1;
+}
+
+
+a {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+a.yellow {
+  opacity: 1;
+}
+
+
+
+
+
 
