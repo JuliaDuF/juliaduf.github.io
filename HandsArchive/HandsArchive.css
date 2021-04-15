@@ -5,6 +5,10 @@
     src: url('http://domain.com/fonts/font.ttf'); /*URL to font*/
 }
 
+html {
+  
+}
+
 body {
   background: white;
   margin-top: 50px;
@@ -266,5 +270,27 @@ h2:hover {
   text-decoration-line: underline;
   position: left;
   align-content: center;
+}
+
+
+span {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+span.yellow {
+  opacity: 1;
+}
+
+
+a {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+a.yellow {
+  opacity: 1;
 }
 
