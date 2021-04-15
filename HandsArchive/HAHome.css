@@ -6,9 +6,10 @@
 }
 
 body {
-  background: white;
-  margin-top: 50px;
   font-family: 'Quicksand', sans-serif;
+  background-image: url(img/handvideo.mp4) auto repeat;
+  margin-top: 50px;
+  overflow-x: hidden;
 }
 
 a {
@@ -309,7 +310,21 @@ a.yellow {
 }
 
 
+.videocontainer {
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
+iframe {
+  width: 200px;
+  height: 200px;
+  align-content: left;
+  left: 0;
+  bottom: 0;
+  position: static;
+}
 
 
 
