@@ -79,7 +79,15 @@ function showHands() {
   //appear & disappear
   imageContainer.addEventListener("click", function(){
     instaCaption.classList.toggle("active");
+    credit.classList.toggle("active");
   })
+
+  //add detailed info & captions to pop up box
+    var credit = document.createElement("p");
+    credit.classList.add("credit");
+    credit.innerText = hand.fields.credit;
+    imageContainer.append(credit);
+
 
 //A single genre filter 
 // add Genre link to image container
@@ -132,7 +140,7 @@ function showHands() {
       })
     })
 
-  //close modal *for some reason the popup box is unable to close
+  //close modal
     closeModalButtons.forEach(button => {
       button.addEventListener('click', () => {
         const modal = button.closest('.modal')
@@ -152,6 +160,14 @@ function showHands() {
      modal.classList.remove('active')
       /*overlay.classList.remove('active')*/
     }
+
+
+
+
+
+
+
+
 
 
 
