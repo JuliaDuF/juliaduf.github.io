@@ -9,6 +9,7 @@ body {
   background: white;
   margin-top: 50px;
   font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
 }
 
 .title0 {
@@ -51,16 +52,80 @@ body {
 
 h2 {
   font-size: 1rem;
-  line-height: 1.8rem;
+  line-height: 3rem;
   position: block;
-  margin-left: 5rem;
+  margin-left: 10rem;
 }
 
 h2:hover {
-  margin-left: 20rem;
+  padding-left: 14rem;
   line-height: 4rem;
-  transform: scale(1.5);
+  transform: scale(1.6);
   text-decoration-line: underline;
   position: left;
   align-content: center;
+  opacity: 1;
+}
+
+
+h2 {
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  opacity: 60%;
+}
+
+h2.yellow {
+  opacity: 1;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  margin-right: 3rem;
+  margin-bottom: 5rem;
+  mix-blend-mode: multiply;
+}
+
+.barright {
+  width: 400px;
+  height:auto;
+  right: 10%;
+  position: absolute;
+}
+
+a {
+  font-size: 1.5rem;
+  line-height: 4rem;
+  font-family: fino-sans, sans-serif;
+  font-weight: 400;
+  text-decoration-line: none;
+  font-style: normal;
+  color: black;
+  background-color: white;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.home {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  margin-top: 1rem;
+  left: 90%;
+  z-index: 1;
+
+}
+
+a {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+a.yellow {
+  opacity: 1;
 }
