@@ -104,7 +104,7 @@ function showHands() {
       if (imageContainer.classList.contains("A")) {
         imageContainer.style.visibility = 'visible';
         imageContainer.style.right = (90 * Math.random()) + '%';
-        imageContainer.style.top = (90 * Math.random()) + '%';
+        imageContainer.style.top = (150 * Math.random()) + '%';
       } else {
         imageContainer.style.visibility = 'hidden';
       }
@@ -118,7 +118,7 @@ function showHands() {
     if (imageContainer.classList.contains(event.target.textContent)) {
         imageContainer.style.visibility = '';
         imageContainer.style.right = (90 * Math.random()) + '%';
-        imageContainer.style.top = (90 * Math.random()) + '%';
+        imageContainer.style.top = (150 * Math.random()) + '%';
     } else {
         imageContainer.style.visibility = 'hidden';
     }
@@ -165,6 +165,14 @@ function showHands() {
 
 
 
+
+function hoverElement(event) {
+  if (event.target.tagName == 'SPAN') {
+    event.target.classList.add('yellow');
+  }
+}
+let poem = document.querySelector('.borges-poem');
+poem.addEventListener('mouseover', hoverElement);
 
 
 
