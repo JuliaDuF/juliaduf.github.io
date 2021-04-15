@@ -56,23 +56,25 @@ function showBooks() {
     h2.innerText = book.fields.credit;
     document.body.appendChild(h2);
 
+
+// hover on XXX change visibility
+function hoverElement(event) {
+  if (event.target.tagName == 'div') {
+    event.target.classList.add('yellow');
+  }
+}
+let poem = document.querySelector('.borges-poem');
+poem.addEventListener('mouseover', hoverElement);
+
+
+// link to instagram
+function Redirect() {
+               window.location = "https://www.tutorialspoint.com";
+            }
+
+
+
       });
 }
-
-/* (IMAGES)
-// create a container for the images
-    var imageContainer = document.createElement("div");
-    imageContainer.classList.add("image-container");
-    imageContainer.style.right = (90 * Math.random()) + '%';
-    imageContainer.style.top = (2000 * Math.random()) + '%';
-    document.querySelector(".container").append(imageContainer);
-
-
-// add images in containers
-    var handImage = document.createElement("img");
-    handImage.classList.add("hand-image");
-    handImage.src = book.fields.hand_image[0].url;
-    imageContainer.append(handImage);
-*/
 
 
