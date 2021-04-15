@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('http://domain.com/fonts/font.ttf'); /*URL to font*/
+}
+
+body {
+  background: white;
+  margin-top: 50px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title0 {
+  text-align: center;
+  font-family: fino-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: fixed;
+  font-size: 8rem;
+  margin-left: 27%;
+  margin-top: 20%;
+  mix-blend-mode: exclusion;
+  color: black;
+
+}
+
+/*
+.backgroundimage {
+  width: 120%;
+  height: 120%;
+  position: fixed;
+  transform: rotate(270deg);
+}
+*/
+
+.image-container {
+  background-color: black;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+
+.video-container {
+  background-color: black;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+
+.hand-image {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+
+
+.containerpopup {
+  width: auto;
+  height: auto;
+  background-color: black;
+  opacity: 50%;
+}
+
+
+.image-container:hover {
+  background-color: black;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.hand-image:hover {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.insta-caption {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;
+  display: none;
+  color: black;
+  background-color: white;
+  margin-top: 180px;
+}
+
+.insta-caption.active {
+  display: block;
+  position: absolute;
+}
+
+
+button {
+  top:5%;
+}
+
+.hand-video {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+
+.letter-text {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  position: block;
+  margin-left: 5rem;
+}
+
+.leftbar-container{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+}
+
+.filter {
+  padding-left: 3rem;
+  width: 1.2rem;
+  flex-direction: column;
+  height: 900px;
+  z-index: 99;
+}
+
+.filtertext {
+  font-size: 1.5rem;
+  line-height: 4rem;
+  font-family: fino-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.filtertext:hover {
+  background-color: black;
+  color: white;
+  background-blend-mode: difference;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%) scale(0);/* put it in the center of the page*/
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%; /*to fit the window size*/
+}
+
+.modal.active {
+  transform:translate(-50%,-50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title{
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.modal-body {
+
+}
+
+/*
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.5);
+  pointer-events: none; 
+}
+
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}*/
+
+
+h3 {
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+  position: block;
+  margin-left: 5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  position: block;
+  margin-left: 5rem;
+}
+
+h2:hover {
+  margin-left: 20rem;
+  line-height: 4rem;
+  transform: scale(1.5);
+  text-decoration-line: underline;
+  position: left;
+  align-content: center;
+}
+
