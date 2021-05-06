@@ -1,0 +1,204 @@
+/* styles */
+/* called by your view template */
+
+  @import url("https://use.typekit.net/rjs5vol.css");
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+select {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: white;
+}
+
+button:active {
+  box-shadow: none;
+}
+.form-area{
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:30px;
+  width:800px;
+}
+.textX{
+  float:left;
+  height:30px;
+  line-height:30px;
+}
+.positionX{
+  float:left;
+  margin-left:10px;
+  width:150px;
+  height:30px;
+}
+.textY{
+  float:left;
+  margin-left:10px;
+  height:30px;
+  line-height:30px;
+}
+.positionY{
+  float:left;
+  margin-left:10px;
+  width:150px;
+}
+.textColor{
+  float:left;
+  margin-left:10px;
+  height:30px;
+  line-height:30px;
+}
+.positionColor{
+  float:left;
+  margin-left:10px;
+  width:150px;
+}
+
+.submit{
+  float:left;
+  width:30px;
+  margin-top:5px;
+  margin-left:10px;
+}
+
+
+.show-area{
+  position:absolute;
+  left:55%;
+  top: 10%;
+  right:0px;
+  bottom:0px;
+  font-family: 'Times', serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  width: 500px;
+  margin: 25px;
+  color: white;
+  z-index: 1;
+}
+
+.brush-stroke{
+  position:absolute;
+  width:30px;
+  height:30px;
+  border-radius:15px;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.3rem;
+  line-height: 2.3rem;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 25%;
+  z-index: -1;
+  position: fixed;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.backgroundblack {
+  background-color: black;
+  margin-left: 50%;
+  width: 800px;
+  height: 2000px;
+  position: fixed;
+  z-index: -1;
+}
+
+h2 {
+  font-weight: bold;
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 2.5rem;
+  text-align: left;
+  margin-left: 18%;
+  margin-top: 29.5%;
+  z-index: -1;
+  position: fixed;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+li {
+  list-style-type: square;
+  color: white;
+}
+
+img {
+  width: 10px;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  align-content: center;
+}
+
+.starone {
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  margin-left: 17%;
+  margin-top: 40%;
+  position: absolute;
+  display: block;
+  align-content: center;
+  mix-blend-mode: hard-light;
+}
+
+.startwo {
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  margin-left: 17%;
+  margin-top: 3%;
+  position: absolute;
+  display: block;
+  align-content: center;
+  mix-blend-mode: hard-light;
+}
