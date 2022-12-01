@@ -69,7 +69,7 @@ function showBooks() {
   books.forEach((book) => {
     // create the div, set its text and class
     const div = document.createElement("div");
-    div.innerText = book.fields.title;
+    div.image = book.fields.cover_image;
     div.classList.add("book-spine");
     // when the user clicks this book spine, call showBook and send the book data and this spine element
     div.addEventListener("click", () => {
