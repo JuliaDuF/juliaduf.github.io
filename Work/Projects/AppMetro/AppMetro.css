@@ -1,0 +1,654 @@
+html {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  background-color: #f3f4f8;
+  overflow-x: hidden;
+}
+
+body {
+  padding:0rem;
+  color:#FFFFFF;
+  margin: 0rem;
+  overflow-x: hidden;s
+}
+
+a {
+  text-decoration: none;
+  font-family: 'graphik', sans-serif;
+  font-weight: 400;
+  line-height: 0.1rem;
+  color: black;
+}
+
+.linkfont a:hover {
+  text-decoration: none;
+  background-color: #BDEBFF;
+}
+
+main {
+  display:grid;
+  grid-template-columns
+  grid-auto-rows:min-content;
+  margin: 0 auto;
+  grid-gap: 0.5rem;
+}
+
+.fade-in-image { animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Libre Calson Text', serif;
+}
+
+h1 {
+  font-size:2.75rem;
+  font-weight:800;
+  color: #F779AB;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:1.0rem;
+  font-weight:300;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 0.6rem;
+  font-family: 'Libre Calson Text', serif;
+  line-height: 1.2rem;
+  padding: 0rem;
+}
+
+p {
+  font-size: 0.6rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+  color: #FFFFFF;
+}
+
+img {
+  display: grid;
+  margin: 0 auto;
+}
+
+.textboxlarge {
+  width: 800px;
+  text-align: center;
+  display: grid;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image {
+  flex-basis: 70%;
+  order: 2;
+  align-self: left;
+  width: 40px;
+}
+
+.linecontainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageflex {
+  /*flex-basis: 20%;*/
+  padding-right: 20px;
+}
+
+.imagecenter {
+  flex-basis: 70%;
+  order: 2;
+  align-self: center;
+  width: 40px;
+}
+
+.imageadd {
+  flex-basis: 70%;
+  order: 2;
+  align-self: right;
+  height: 300px;
+}
+
+.container {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+      }
+
+.title {
+  font-family: 'graphik', sans-serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+  letter-spacing: -5px;
+  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+  color: black;
+}
+
+.subtitle1 {
+  font-family: 'graphik', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.toptitle {
+  font-family: 'graphik', sans-serif;
+  font-weight: 400;
+  font-size: 0.52rem;
+  line-height: 0.6rem;
+  letter-spacing: 0.3px;
+  color: white;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.subtitle2 {
+  font-family: 'Sen', sans-serif;
+  font-weight:-200;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: #242320;
+}
+
+.subtitle3 {
+  font-family: 'Sen', sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #242320;
+}
+
+.subtitle4 {
+  font-family: 'graphik', sans-serif;
+  font-weight: 450;
+  font-size: 0.65rem;
+  line-height: 0.9rem;
+  letter-spacing: -0.25px;
+  color: black;
+  opacity: 45%;
+}
+
+.projecttitle {
+  font-family: 'graphik', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  letter-spacing: -1.5px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projectsub {
+  font-family: 'graphik', sans-serif;
+  font-weight: 350;
+  font-size: 0.6rem;
+  line-height: 0.9rem;
+  letter-spacing: 0px ;
+  color: black;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.smalltitle {
+  font-family: 'graphik', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: -1.1px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-family: 'graphik', sans-serif;
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 0.9rem;
+  letter-spacing: -0px;
+  color: black;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.testtitle {
+  font-family: 'graphik', sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 2.3rem;
+  letter-spacing: -5px;
+  color: black;
+  text-align: center;
+}
+
+.testtitle2 {
+  font-family: 'graphik', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -5px;
+  color: black;
+  text-align: center;
+}
+
+.quote {
+  font-family: 'graphik', sans-serif;
+  font-weight: 300;
+  font-style: ;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  margin-bottom: 1rem;
+  color: black;
+  text-align: left;
+}
+
+.boxtext {
+  font-family: 'graphik', sans-serif;
+  font-weight: 300;
+  font-style: ;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.p1 {
+  font-family: 'graphik', sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  color: #242320;
+  margin-bottom: 1rem;
+}
+
+.p2 {
+  font-family: 'graphik', sans-serif;
+  font-weight: 300;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  margin-left: 1rem;
+  color: #242320;
+}
+
+.p3 {
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+
+.p4 {
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #000000;
+  text-align: center;
+}
+
+.linkfont {
+  font-family: 'graphik', sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 2rem;
+  color: #242320;
+  margin-bottom: 1rem;
+}
+
+.linkfont2 {
+  font-family: 'graphik', sans-serif;
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #a2a2a2;
+  margin-bottom: 0rem;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+  text-decoration-color: #a2a2a2;
+
+}
+
+.block1 {
+ text-align: center;
+ grid-column-start: 1;
+ grid-column-end: span 2;
+ margin-right:4rem;
+ margin-left:4rem;
+}
+
+.float1 {
+  width: 400px;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+  padding: 50px;
+  background-color: red;
+  float: left;
+  position: absolute;
+}
+
+.float2 {
+  width: 400px;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+  padding: 50px;
+  background-color: red;
+  float: right;
+  position: absolute;
+}
+
+.blockline {
+ text-align: center;
+ grid-column-start: 1;
+ grid-column-end: span 2;
+ margin-right:4rem;
+ margin-left:4rem;
+}
+
+.block2 {
+ grid-column:1 / 2;
+ text-align: left;
+ margin-right:4rem;
+ margin-left:4rem;
+}
+
+.block3 {
+ grid-column:2 / 2;
+ text-align: left;
+ margin-right:4rem;
+ margin-left:4rem;
+}
+
+
+.block4 {
+ grid-column:1 / 2;
+ text-align: center;
+ margin-right:4rem;
+ margin-left:4rem;
+ vertical-align: middle;
+ position: relative;
+ align-items: center;
+ padding-top: 55px;
+
+}
+
+.block5 {
+ grid-column:2 / 2;
+ text-align: center;
+ margin-right:4rem;
+ margin-left:4rem;
+ vertical-align: middle;
+ position: relative;
+ align-items: center;
+ padding-top: 55px;
+}
+
+.emptybox {
+ grid-column:1 / 2;
+ text-align: left;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+}
+
+.emptyboxsmall {
+ grid-column:1 / 2;
+ text-align: left;
+ margin-top: 0.5rem;
+ margin-bottom: 0.5rem;
+}
+
+.emptyboxbig {
+ grid-column:1 / 2;
+ text-align: left;
+ margin-top: 3rem;
+ margin-bottom: 3rem;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0.35px;
+  color: black;
+}
+
+
+.square {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  border-radius: 1.2rem;
+  box-shadow: 0px 0px 10px 10px #f2f2f2;
+}
+
+.squareblank {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  display: grid;
+
+}
+
+.textbox {
+  height: 50px;
+  background-color: black;
+  margin-top: 2rem;
+}
+
+.textboxwhite {
+  height: 50px;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+
+/*a:hover, a:active {
+  background-color: red;
+}*/
+
+.hugeblock {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  width: 100%;
+  height: 100px;
+  align-content: center;
+  display: grid;
+  background-color: linear-gradient(#f3f4f8 , #000000);
+}
+
+.bg1 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 1050px;
+}
+
+.bg2 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 390px;
+}
+
+.bg3 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 480px;
+}
+
+.bg4 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  background-color: white;
+  height: 550px;
+}
+
+.bg5 {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  background-color: white;
+  height: 550px;
+}
+
+.bg6 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 850px;
+}
+
+.bg7 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 550px;
+}
+
+.bg8 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 1450px;
+}
+
+.bg9 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 750px;
+}
+
+.bg10 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 600px;
+}
+
+.bg11 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: white;
+  height: 2000px;
+}
+
+
+/*phone screen*/
+@media only screen and (max-width: 600px) {
+
+main {
+  display:grid;
+  grid-template-columns
+  grid-auto-rows:min-content;
+  margin: 0 auto;
+}
+
+img {
+  display: grid;
+  margin: 0 auto;
+}
+
+.block1 {
+ margin-right:1rem;
+ margin-left:2rem;
+}
+
+.blockline {
+ margin-right:1rem;
+ margin-left:1rem;
+ width: 70%;
+}
+
+.block2 {
+ margin-right:1rem;
+ margin-left:2rem;
+ width: 400px;
+}
+
+.block3 {
+ margin-right:1rem;
+ margin-left:2rem;
+ grid-column:1 / 2;
+ width: 400px;
+}
+
+.bg2 {
+  height: 290px;
+}
+
+.bg1 {
+  background-color: #f3f4f8;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.title {
+  font-family: 'graphik', sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: -5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.subtitle1 {
+  font-family: 'graphik', sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  letter-spacing: 1px;
+  color: black;
+} 
+
+
+.bg5 {
+ grid-column:1 / 2;
+}
+
+.bg6 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  height: 900px;
+}
+
+.projecttitle {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+}
