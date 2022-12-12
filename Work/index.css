@@ -1,0 +1,141 @@
+html {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  background-color: #000000;
+}
+
+body {
+  color:#F9F8F6;
+  width: auto;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Sen', sans-serif;
+  font-weight:200;
+  line-height: 1.2rem;
+  color: #c2c2c2;
+}
+
+a:hover {
+  text-decoration: none;
+  /*background-color: #ff005d;*/
+  color: white;
+}
+
+main {
+  display:grid;
+  grid-template-columns
+  grid-auto-rows:min-content;
+  grid-gap:1rem;
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+  margin-right: 3rem;
+}
+
+.intro-block {
+  grid-column:1 / 2;
+  text-align: left;
+  display: flex;
+}
+
+
+.projects {
+  grid-column:2 / 2;
+  text-align: right;
+
+}
+
+.homeimg {
+  grid-column:4 / 5;
+  grid-row:2 / 2;
+  text-align: right;
+}
+
+.aboutme {
+  grid-column:4 / 5;
+}
+
+.item {
+  grid-column:1;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.definition {
+  grid-column:1;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Libre Calson Text', serif;
+
+}
+
+h1 {
+  font-size:2.75rem;
+  font-weight:800;
+}
+h2 {
+  font-size:2.25rem;
+}
+h3 {
+  font-size:1.0rem;
+  font-weight:300;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+
+li {
+  font-size: 0.6rem;
+  font-family: 'Libre Calson Text', serif;
+  display:grid;
+}
+
+p {
+  font-size: 0.6rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+  color: #c2c2c2;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-content: right;
+}
+
+figcaption {
+  font-size: 0.6rem;
+  font-family: 'Helvetica', sans-serif;
+  padding-top: 1rem;
+}
+
+.sublink {
+  font-size:0.5rem;
+  font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Sen', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  color: #b2b2b2;
+  display:grid;
+  align-items: center;
+}
+
+.subtitle {
+  font-family: 'Sen', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #c2c2c2;
+}
